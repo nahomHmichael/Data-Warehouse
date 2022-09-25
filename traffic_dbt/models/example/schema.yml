@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: traffic_raw
+    description: "traffic data"
+    columns:
+      - name: id
+        description: "postgre unique id"
+      - name: track_id
+        description: "track id"
+      - name: type
+        description: "vehicle type"
+      - name: traveled_d
+        description: "traveled_d"
+      - name: avg_speed
+        description: "avg_speed"
+      - name: lat
+        description: "lattitudde"
+      - name: lon
+        description: "longitude"
+      - name: speed
+        description: "speed"
+      - name: lon_acc
+        description: "lon_acc"
+      - name: lat_acc
+        description: "lat_acc"
+      - name: time
+        description: "time"

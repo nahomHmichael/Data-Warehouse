@@ -1,40 +1,39 @@
-from airflow import DAG
+import airflow
 from sqlalchemy import create_engine
-from datetime import datetime, timedelta
+from datetime import timedelta,datetime
+from airflow import DAG
 from airflow.operators.python import PythonOperator
-from airflow.providers.postgres.operators.postgres import PostgresOperator
 import os
 import pandas as pd
 
-args = {'owner':'airflow',
-        'retries':5,
-        'retry_delay':timedelta(minutes=1)}
+default_args = {
+    'owner':'nahom',
+    'retries':5,
+    'retry_delay':timedelta(minutes=2)
+}
 
-def load_data(path, table_name):
-    print("writing.............")
-    engine = create_engine("postgresql+psycopg2://airflow:airflow@postgres/airflow")
-    df = pd.read_csv(path,index_col=False, low_memory=False)
-    df1 = df
-    df = df1.iloc[:, :10]
-    
+def load_raw_data(path, table_name):
+    print("writing data..............")
+    engine = create_engine("postgresql://postgres:9XYPHxdgEWmSopgCRl1N@containers-us-west-62.railway.app:7977/railway")
+    df = pd.read_csv(path, sep=",", index_col=False)
+
     df.to_sql(table_name, con=engine, if_exists='replace',index_label='id')
-    print("...data saved!")
+    print("!!!!Done!!!!")
+
 
 with DAG(
-    dag_id="postgres_operator_dag",
-    default_args=args,
-    start_date=datetime(2022,9,22,2,15),
-    description='An Airflow DAG to create tables',
-    schedule_interval="@once",
-) as dag:
-    create_pet_table = PythonOperator(
-    task_id="create_table",
-    python_callable=load_data,
-    #postgres_conn_id="postgres_default",
-    #sql="sql/traffic_schema.sql",
-    op_kwargs={
-        'path':'./data/drone3_clean.csv','table_name':'traffic_table'
-        
-    }
-)
-    create_pet_table
+    dag_id='load_to_dwh_v2',
+    default_args=default_args,
+    description='This loads cleaned data to the postgres warehouse on railway',
+    start_date=airflow.utils.dates.days_ago(1),
+    schedule_interval='@once'
+)as dag:
+    task1 = PythonOperator(
+        task_id='load_raw_data',
+        python_callable=load_raw_data,
+        op_kwargs={
+            "path": "./data/drone3_clean.csv",
+            "table_name":"traffic_raw"
+        }
+    )
+    task1
