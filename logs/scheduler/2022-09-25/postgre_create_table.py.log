@@ -1,0 +1,324 @@
+[2022-09-25T06:31:51.273+0000] {processor.py:156} INFO - Started process (PID=47) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T06:31:51.273+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-09-25T06:31:51.274+0000] {logging_mixin.py:117} INFO - [2022-09-25T06:31:51.274+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T06:31:52.507+0000] {logging_mixin.py:117} INFO - [2022-09-25T06:31:52.495+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/postgre_create_table.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/postgre_create_table.py", line 36, in <module>
+    "table_name":"traffic_raw"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 160, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 766, in __init__
+    validate_key(task_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key '' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-09-25T06:31:52.508+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T06:31:52.542+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 1.277 seconds
+[2022-09-25T06:32:23.189+0000] {processor.py:156} INFO - Started process (PID=70) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T06:32:23.190+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-09-25T06:32:23.190+0000] {logging_mixin.py:117} INFO - [2022-09-25T06:32:23.190+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T06:32:23.647+0000] {logging_mixin.py:117} INFO - [2022-09-25T06:32:23.644+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/postgre_create_table.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/postgre_create_table.py", line 36, in <module>
+    "table_name":"traffic_raw"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 160, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 766, in __init__
+    validate_key(task_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key '' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-09-25T06:32:23.647+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T06:32:23.666+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 0.480 seconds
+[2022-09-25T06:32:53.866+0000] {processor.py:156} INFO - Started process (PID=101) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T06:32:53.868+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-09-25T06:32:53.871+0000] {logging_mixin.py:117} INFO - [2022-09-25T06:32:53.870+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T06:32:55.411+0000] {logging_mixin.py:117} INFO - [2022-09-25T06:32:55.409+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/postgre_create_table.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/postgre_create_table.py", line 36, in <module>
+    "table_name":"traffic_raw"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 160, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 766, in __init__
+    validate_key(task_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key '' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-09-25T06:32:55.412+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T06:32:55.463+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 1.605 seconds
+[2022-09-25T06:33:25.622+0000] {processor.py:156} INFO - Started process (PID=123) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T06:33:25.622+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-09-25T06:33:25.623+0000] {logging_mixin.py:117} INFO - [2022-09-25T06:33:25.623+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T06:33:25.990+0000] {logging_mixin.py:117} INFO - [2022-09-25T06:33:25.989+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/postgre_create_table.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/postgre_create_table.py", line 36, in <module>
+    "table_name":"traffic_raw"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 160, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 766, in __init__
+    validate_key(task_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key '' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-09-25T06:33:25.990+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T06:33:26.007+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 0.388 seconds
+[2022-09-25T08:17:46.434+0000] {processor.py:156} INFO - Started process (PID=47) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:17:46.443+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-09-25T08:17:46.444+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:17:46.444+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:17:48.339+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:17:48.323+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/postgre_create_table.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/postgre_create_table.py", line 36, in <module>
+    "table_name":"traffic_raw"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 160, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 766, in __init__
+    validate_key(task_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key '' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-09-25T08:17:48.339+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:17:48.375+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 1.950 seconds
+[2022-09-25T08:18:18.502+0000] {processor.py:156} INFO - Started process (PID=69) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:18:18.504+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-09-25T08:18:18.505+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:18:18.504+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:18:18.858+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:18:18.856+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/postgre_create_table.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/postgre_create_table.py", line 36, in <module>
+    "table_name":"traffic_raw"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 160, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 766, in __init__
+    validate_key(task_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key '' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-09-25T08:18:18.859+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:18:18.884+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 0.385 seconds
+[2022-09-25T08:18:49.066+0000] {processor.py:156} INFO - Started process (PID=100) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:18:49.068+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-09-25T08:18:49.069+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:18:49.069+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:18:49.348+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:18:49.347+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/postgre_create_table.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/postgre_create_table.py", line 36, in <module>
+    "table_name":"traffic_raw"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 160, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 766, in __init__
+    validate_key(task_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key '' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-09-25T08:18:49.349+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:18:49.366+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 0.303 seconds
+[2022-09-25T08:19:19.526+0000] {processor.py:156} INFO - Started process (PID=131) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:19:19.527+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-09-25T08:19:19.528+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:19:19.528+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:19:19.929+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:19:19.927+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/postgre_create_table.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/postgre_create_table.py", line 36, in <module>
+    "table_name":"traffic_raw"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 160, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 766, in __init__
+    validate_key(task_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key '' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-09-25T08:19:19.930+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:19:19.964+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 0.445 seconds
+[2022-09-25T08:19:50.090+0000] {processor.py:156} INFO - Started process (PID=153) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:19:50.092+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-09-25T08:19:50.093+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:19:50.093+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:19:50.309+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:19:50.307+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/postgre_create_table.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/postgre_create_table.py", line 36, in <module>
+    "table_name":"traffic_raw"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 160, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 766, in __init__
+    validate_key(task_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key '' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-09-25T08:19:50.309+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:19:50.326+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 0.239 seconds
+[2022-09-25T08:20:20.456+0000] {processor.py:156} INFO - Started process (PID=185) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:20:20.459+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-09-25T08:20:20.459+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:20:20.459+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:20:20.699+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:20:20.698+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/postgre_create_table.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/postgre_create_table.py", line 36, in <module>
+    "table_name":"traffic_raw"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 160, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 766, in __init__
+    validate_key(task_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key '' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-09-25T08:20:20.699+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:20:20.724+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 0.271 seconds
+[2022-09-25T08:20:50.848+0000] {processor.py:156} INFO - Started process (PID=214) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:20:50.850+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-09-25T08:20:50.851+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:20:50.851+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:20:51.135+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:20:51.133+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/postgre_create_table.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/postgre_create_table.py", line 36, in <module>
+    "table_name":"traffic_raw"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 160, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 766, in __init__
+    validate_key(task_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key '' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-09-25T08:20:51.135+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:20:51.154+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 0.309 seconds
+[2022-09-25T08:21:10.245+0000] {processor.py:156} INFO - Started process (PID=228) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:21:10.246+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-09-25T08:21:10.246+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:21:10.246+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:21:10.481+0000] {processor.py:768} INFO - DAG(s) dict_keys(['load_to_dwh_v2']) retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:21:10.671+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:21:10.671+0000] {manager.py:508} INFO - Created Permission View: can read on DAG:load_to_dwh_v2
+[2022-09-25T08:21:10.680+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:21:10.680+0000] {manager.py:508} INFO - Created Permission View: can edit on DAG:load_to_dwh_v2
+[2022-09-25T08:21:10.688+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:21:10.687+0000] {manager.py:508} INFO - Created Permission View: can delete on DAG:load_to_dwh_v2
+[2022-09-25T08:21:10.688+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:21:10.688+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-25T08:21:10.702+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:21:10.701+0000] {dag.py:2594} INFO - Creating ORM DAG for load_to_dwh_v2
+[2022-09-25T08:21:10.712+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:21:10.712+0000] {dag.py:3328} INFO - Setting next_dagrun for load_to_dwh_v2 to 2022-09-24T00:00:00+00:00, run_after=2022-09-24T00:00:00+00:00
+[2022-09-25T08:21:10.731+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 0.488 seconds
+[2022-09-25T08:21:41.438+0000] {processor.py:156} INFO - Started process (PID=259) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:21:41.439+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-09-25T08:21:41.439+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:21:41.439+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:21:41.768+0000] {processor.py:768} INFO - DAG(s) dict_keys(['load_to_dwh_v2']) retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:21:41.813+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:21:41.813+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-25T08:21:41.854+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:21:41.854+0000] {dag.py:3328} INFO - Setting next_dagrun for load_to_dwh_v2 to None, run_after=None
+[2022-09-25T08:21:41.880+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 0.448 seconds
+[2022-09-25T08:22:12.063+0000] {processor.py:156} INFO - Started process (PID=281) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:22:12.070+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-09-25T08:22:12.071+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:22:12.071+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:22:12.552+0000] {processor.py:768} INFO - DAG(s) dict_keys(['load_to_dwh_v2']) retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:22:12.610+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:22:12.609+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-25T08:22:12.660+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:22:12.659+0000] {dag.py:3328} INFO - Setting next_dagrun for load_to_dwh_v2 to None, run_after=None
+[2022-09-25T08:22:12.697+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 0.641 seconds
+[2022-09-25T08:22:43.215+0000] {processor.py:156} INFO - Started process (PID=313) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:22:43.223+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-09-25T08:22:43.224+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:22:43.224+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:22:43.430+0000] {processor.py:768} INFO - DAG(s) dict_keys(['load_to_dwh_v2']) retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:22:43.459+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:22:43.459+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-25T08:22:43.480+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:22:43.480+0000] {dag.py:3328} INFO - Setting next_dagrun for load_to_dwh_v2 to None, run_after=None
+[2022-09-25T08:22:43.503+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 0.290 seconds
+[2022-09-25T08:23:13.654+0000] {processor.py:156} INFO - Started process (PID=344) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:23:13.655+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-09-25T08:23:13.656+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:23:13.655+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:23:13.905+0000] {processor.py:768} INFO - DAG(s) dict_keys(['load_to_dwh_v2']) retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:23:13.934+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:23:13.934+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-25T08:23:13.958+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:23:13.958+0000] {dag.py:3328} INFO - Setting next_dagrun for load_to_dwh_v2 to None, run_after=None
+[2022-09-25T08:23:13.975+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 0.325 seconds
+[2022-09-25T08:23:44.113+0000] {processor.py:156} INFO - Started process (PID=367) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:23:44.116+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-09-25T08:23:44.116+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:23:44.116+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:23:44.371+0000] {processor.py:768} INFO - DAG(s) dict_keys(['load_to_dwh_v2']) retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:23:44.401+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:23:44.401+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-25T08:23:44.422+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:23:44.422+0000] {dag.py:3328} INFO - Setting next_dagrun for load_to_dwh_v2 to None, run_after=None
+[2022-09-25T08:23:44.440+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 0.332 seconds
+[2022-09-25T08:24:14.609+0000] {processor.py:156} INFO - Started process (PID=398) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:24:14.610+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-09-25T08:24:14.610+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:24:14.610+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:24:14.929+0000] {processor.py:768} INFO - DAG(s) dict_keys(['load_to_dwh_v2']) retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:24:14.974+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:24:14.973+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-25T08:24:15.030+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:24:15.029+0000] {dag.py:3328} INFO - Setting next_dagrun for load_to_dwh_v2 to None, run_after=None
+[2022-09-25T08:24:15.082+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 0.477 seconds
+[2022-09-25T08:24:45.258+0000] {processor.py:156} INFO - Started process (PID=429) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:24:45.266+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-09-25T08:24:45.267+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:24:45.267+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:24:45.647+0000] {processor.py:768} INFO - DAG(s) dict_keys(['load_to_dwh_v2']) retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-09-25T08:24:45.694+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:24:45.694+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-25T08:24:45.727+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:24:45.727+0000] {dag.py:3328} INFO - Setting next_dagrun for load_to_dwh_v2 to None, run_after=None
+[2022-09-25T08:24:45.751+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 0.497 seconds

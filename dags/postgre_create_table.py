@@ -29,7 +29,7 @@ with DAG(
     schedule_interval='@once'
 )as dag:
     task1 = PythonOperator(
-        task_id='',
+        task_id='load_raw_data',
         python_callable=load_raw_data,
         op_kwargs={
             "path": "./data/drone3_clean.csv",

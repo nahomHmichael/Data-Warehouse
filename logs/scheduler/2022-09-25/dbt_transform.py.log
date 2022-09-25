@@ -1,0 +1,95 @@
+[2022-09-25T06:31:51.253+0000] {processor.py:156} INFO - Started process (PID=46) to work on /opt/airflow/dags/dbt_transform.py
+[2022-09-25T06:31:51.255+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dbt_transform.py for tasks to queue
+[2022-09-25T06:31:51.258+0000] {logging_mixin.py:117} INFO - [2022-09-25T06:31:51.257+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T06:31:52.492+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T06:31:52.522+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dbt_transform.py took 1.274 seconds
+[2022-09-25T06:32:23.185+0000] {processor.py:156} INFO - Started process (PID=69) to work on /opt/airflow/dags/dbt_transform.py
+[2022-09-25T06:32:23.186+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dbt_transform.py for tasks to queue
+[2022-09-25T06:32:23.186+0000] {logging_mixin.py:117} INFO - [2022-09-25T06:32:23.186+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T06:32:23.593+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T06:32:23.611+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dbt_transform.py took 0.428 seconds
+[2022-09-25T06:32:53.823+0000] {processor.py:156} INFO - Started process (PID=100) to work on /opt/airflow/dags/dbt_transform.py
+[2022-09-25T06:32:53.838+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dbt_transform.py for tasks to queue
+[2022-09-25T06:32:53.839+0000] {logging_mixin.py:117} INFO - [2022-09-25T06:32:53.839+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T06:32:55.267+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T06:32:55.299+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dbt_transform.py took 1.500 seconds
+[2022-09-25T06:33:25.476+0000] {processor.py:156} INFO - Started process (PID=122) to work on /opt/airflow/dags/dbt_transform.py
+[2022-09-25T06:33:25.478+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dbt_transform.py for tasks to queue
+[2022-09-25T06:33:25.479+0000] {logging_mixin.py:117} INFO - [2022-09-25T06:33:25.479+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T06:33:25.821+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T06:33:25.832+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dbt_transform.py took 0.360 seconds
+[2022-09-25T08:17:46.406+0000] {processor.py:156} INFO - Started process (PID=46) to work on /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:17:46.411+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dbt_transform.py for tasks to queue
+[2022-09-25T08:17:46.412+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:17:46.412+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:17:48.320+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:17:48.339+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dbt_transform.py took 1.937 seconds
+[2022-09-25T08:18:18.496+0000] {processor.py:156} INFO - Started process (PID=68) to work on /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:18:18.504+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dbt_transform.py for tasks to queue
+[2022-09-25T08:18:18.505+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:18:18.505+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:18:18.908+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:18:18.922+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dbt_transform.py took 0.429 seconds
+[2022-09-25T08:18:49.057+0000] {processor.py:156} INFO - Started process (PID=99) to work on /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:18:49.058+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dbt_transform.py for tasks to queue
+[2022-09-25T08:18:49.059+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:18:49.059+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:18:49.343+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:18:49.355+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dbt_transform.py took 0.302 seconds
+[2022-09-25T08:19:19.517+0000] {processor.py:156} INFO - Started process (PID=130) to work on /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:19:19.518+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dbt_transform.py for tasks to queue
+[2022-09-25T08:19:19.518+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:19:19.518+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:19:19.910+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:19:19.928+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dbt_transform.py took 0.416 seconds
+[2022-09-25T08:19:50.084+0000] {processor.py:156} INFO - Started process (PID=152) to work on /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:19:50.092+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dbt_transform.py for tasks to queue
+[2022-09-25T08:19:50.094+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:19:50.094+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:19:50.330+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:19:50.341+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dbt_transform.py took 0.259 seconds
+[2022-09-25T08:20:20.451+0000] {processor.py:156} INFO - Started process (PID=184) to work on /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:20:20.459+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dbt_transform.py for tasks to queue
+[2022-09-25T08:20:20.459+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:20:20.459+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:20:20.694+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:20:20.707+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dbt_transform.py took 0.258 seconds
+[2022-09-25T08:20:50.842+0000] {processor.py:156} INFO - Started process (PID=213) to work on /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:20:50.850+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dbt_transform.py for tasks to queue
+[2022-09-25T08:20:50.851+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:20:50.851+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:20:51.193+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:20:51.205+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dbt_transform.py took 0.368 seconds
+[2022-09-25T08:21:21.323+0000] {processor.py:156} INFO - Started process (PID=239) to work on /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:21:21.330+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dbt_transform.py for tasks to queue
+[2022-09-25T08:21:21.331+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:21:21.331+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:21:21.559+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:21:21.583+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dbt_transform.py took 0.262 seconds
+[2022-09-25T08:21:51.778+0000] {processor.py:156} INFO - Started process (PID=270) to work on /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:21:51.779+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dbt_transform.py for tasks to queue
+[2022-09-25T08:21:51.779+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:21:51.779+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:21:51.974+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:21:51.984+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dbt_transform.py took 0.209 seconds
+[2022-09-25T08:22:22.132+0000] {processor.py:156} INFO - Started process (PID=292) to work on /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:22:22.133+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dbt_transform.py for tasks to queue
+[2022-09-25T08:22:22.134+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:22:22.133+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:22:22.468+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:22:22.480+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dbt_transform.py took 0.352 seconds
+[2022-09-25T08:22:52.565+0000] {processor.py:156} INFO - Started process (PID=324) to work on /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:22:52.566+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dbt_transform.py for tasks to queue
+[2022-09-25T08:22:52.567+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:22:52.566+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:22:52.762+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:22:52.774+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dbt_transform.py took 0.211 seconds
+[2022-09-25T08:23:22.897+0000] {processor.py:156} INFO - Started process (PID=355) to work on /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:23:22.898+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dbt_transform.py for tasks to queue
+[2022-09-25T08:23:22.898+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:23:22.898+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:23:23.142+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:23:23.154+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dbt_transform.py took 0.260 seconds
+[2022-09-25T08:23:53.274+0000] {processor.py:156} INFO - Started process (PID=378) to work on /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:23:53.281+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dbt_transform.py for tasks to queue
+[2022-09-25T08:23:53.282+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:23:53.282+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:23:53.485+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:23:53.495+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dbt_transform.py took 0.224 seconds
+[2022-09-25T08:24:23.674+0000] {processor.py:156} INFO - Started process (PID=409) to work on /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:24:23.684+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dbt_transform.py for tasks to queue
+[2022-09-25T08:24:23.686+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:24:23.685+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:24:24.177+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:24:24.196+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dbt_transform.py took 0.528 seconds
+[2022-09-25T08:24:54.339+0000] {processor.py:156} INFO - Started process (PID=431) to work on /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:24:54.347+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dbt_transform.py for tasks to queue
+[2022-09-25T08:24:54.348+0000] {logging_mixin.py:117} INFO - [2022-09-25T08:24:54.348+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:24:54.587+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_transform.py
+[2022-09-25T08:24:54.600+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dbt_transform.py took 0.264 seconds
