@@ -1,0 +1,53 @@
+[2022-11-10T13:46:56.764+0000] {processor.py:156} INFO - Started process (PID=46) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-11-10T13:46:56.765+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-11-10T13:46:56.766+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:46:56.765+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-11-10T13:46:58.789+0000] {processor.py:768} INFO - DAG(s) dict_keys(['load_to_dwh_v2']) retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-11-10T13:46:59.115+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:46:59.115+0000] {manager.py:507} INFO - Created Permission View: can edit on DAG:load_to_dwh_v2
+[2022-11-10T13:46:59.131+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:46:59.131+0000] {manager.py:507} INFO - Created Permission View: can read on DAG:load_to_dwh_v2
+[2022-11-10T13:46:59.143+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:46:59.143+0000] {manager.py:507} INFO - Created Permission View: can delete on DAG:load_to_dwh_v2
+[2022-11-10T13:46:59.144+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:46:59.143+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-10T13:46:59.169+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:46:59.168+0000] {dag.py:2594} INFO - Creating ORM DAG for load_to_dwh_v2
+[2022-11-10T13:46:59.189+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:46:59.189+0000] {dag.py:3328} INFO - Setting next_dagrun for load_to_dwh_v2 to 2022-11-09T00:00:00+00:00, run_after=2022-11-09T00:00:00+00:00
+[2022-11-10T13:46:59.215+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 2.454 seconds
+[2022-11-10T13:47:29.436+0000] {processor.py:156} INFO - Started process (PID=66) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-11-10T13:47:29.438+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-11-10T13:47:29.439+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:47:29.439+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-11-10T13:47:30.003+0000] {processor.py:768} INFO - DAG(s) dict_keys(['load_to_dwh_v2']) retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-11-10T13:47:30.054+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:47:30.054+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-10T13:47:30.102+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:47:30.102+0000] {dag.py:3328} INFO - Setting next_dagrun for load_to_dwh_v2 to None, run_after=None
+[2022-11-10T13:47:30.137+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 0.714 seconds
+[2022-11-10T13:48:00.310+0000] {processor.py:156} INFO - Started process (PID=95) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-11-10T13:48:00.311+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-11-10T13:48:00.312+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:48:00.312+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-11-10T13:48:00.878+0000] {processor.py:768} INFO - DAG(s) dict_keys(['load_to_dwh_v2']) retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-11-10T13:48:00.915+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:48:00.915+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-10T13:48:00.958+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:48:00.958+0000] {dag.py:3328} INFO - Setting next_dagrun for load_to_dwh_v2 to None, run_after=None
+[2022-11-10T13:48:00.984+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 0.681 seconds
+[2022-11-10T13:48:31.217+0000] {processor.py:156} INFO - Started process (PID=114) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-11-10T13:48:31.220+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-11-10T13:48:31.221+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:48:31.221+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-11-10T13:48:31.672+0000] {processor.py:768} INFO - DAG(s) dict_keys(['load_to_dwh_v2']) retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-11-10T13:48:31.737+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:48:31.736+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-10T13:48:31.779+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:48:31.779+0000] {dag.py:3328} INFO - Setting next_dagrun for load_to_dwh_v2 to None, run_after=None
+[2022-11-10T13:48:31.807+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 0.603 seconds
+[2022-11-10T13:49:01.980+0000] {processor.py:156} INFO - Started process (PID=143) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-11-10T13:49:01.988+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-11-10T13:49:01.989+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:49:01.989+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-11-10T13:49:02.292+0000] {processor.py:768} INFO - DAG(s) dict_keys(['load_to_dwh_v2']) retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-11-10T13:49:02.366+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:49:02.366+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-10T13:49:02.411+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:49:02.410+0000] {dag.py:3328} INFO - Setting next_dagrun for load_to_dwh_v2 to None, run_after=None
+[2022-11-10T13:49:02.429+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 0.454 seconds
+[2022-11-10T13:49:32.570+0000] {processor.py:156} INFO - Started process (PID=163) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-11-10T13:49:32.571+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-11-10T13:49:32.571+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:49:32.571+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-11-10T13:49:33.045+0000] {processor.py:768} INFO - DAG(s) dict_keys(['load_to_dwh_v2']) retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-11-10T13:49:33.114+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:49:33.113+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-10T13:49:33.148+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:49:33.148+0000] {dag.py:3328} INFO - Setting next_dagrun for load_to_dwh_v2 to None, run_after=None
+[2022-11-10T13:49:33.174+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 0.607 seconds
+[2022-11-10T13:50:03.396+0000] {processor.py:156} INFO - Started process (PID=192) to work on /opt/airflow/dags/postgre_create_table.py
+[2022-11-10T13:50:03.398+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/postgre_create_table.py for tasks to queue
+[2022-11-10T13:50:03.399+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:50:03.399+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/postgre_create_table.py
+[2022-11-10T13:50:03.772+0000] {processor.py:768} INFO - DAG(s) dict_keys(['load_to_dwh_v2']) retrieved from /opt/airflow/dags/postgre_create_table.py
+[2022-11-10T13:50:03.819+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:50:03.819+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-11-10T13:50:03.857+0000] {logging_mixin.py:117} INFO - [2022-11-10T13:50:03.857+0000] {dag.py:3328} INFO - Setting next_dagrun for load_to_dwh_v2 to None, run_after=None
+[2022-11-10T13:50:03.900+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/postgre_create_table.py took 0.509 seconds
