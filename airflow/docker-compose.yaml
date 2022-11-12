@@ -61,7 +61,8 @@ x-airflow-common: &airflow-common
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
-    - ./data:/opt/airflow/data
+    # - ./data:/opt/airflow/data
+    - /home/nhgirma/Documents/GitHub/10acad/week12_improve_project/fix/Traffic-ELT-pipeline/airflow/data:/opt/airflow/data
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on: &airflow-common-depends-on
     redis:
