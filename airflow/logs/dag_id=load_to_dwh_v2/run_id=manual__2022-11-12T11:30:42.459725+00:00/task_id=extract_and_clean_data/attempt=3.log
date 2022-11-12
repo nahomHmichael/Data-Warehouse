@@ -1,0 +1,24 @@
+[2022-11-12T11:35:06.248+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: load_to_dwh_v2.extract_and_clean_data manual__2022-11-12T11:30:42.459725+00:00 [queued]>
+[2022-11-12T11:35:06.258+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: load_to_dwh_v2.extract_and_clean_data manual__2022-11-12T11:30:42.459725+00:00 [queued]>
+[2022-11-12T11:35:06.259+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-12T11:35:06.259+0000] {taskinstance.py:1363} INFO - Starting attempt 3 of 6
+[2022-11-12T11:35:06.259+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-12T11:35:06.275+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): extract_and_clean_data> on 2022-11-12 11:30:42.459725+00:00
+[2022-11-12T11:35:06.281+0000] {standard_task_runner.py:54} INFO - Started process 517 to run task
+[2022-11-12T11:35:06.285+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'load_to_dwh_v2', 'extract_and_clean_data', 'manual__2022-11-12T11:30:42.459725+00:00', '--job-id', '161', '--raw', '--subdir', 'DAGS_FOLDER/postgre_create_table.py', '--cfg-path', '/tmp/tmpjmaps84o']
+[2022-11-12T11:35:06.285+0000] {standard_task_runner.py:83} INFO - Job 161: Subtask extract_and_clean_data
+[2022-11-12T11:35:06.286+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/postgre_create_table.py
+[2022-11-12T11:35:06.289+0000] {dagbag.py:330} ERROR - Failed to import: /opt/***/dags/postgre_create_table.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/postgre_create_table.py", line 6, in <module>
+    sys.path.append(os.path.abspath(".."))
+NameError: name 'sys' is not defined
+[2022-11-12T11:35:06.290+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 161 for task extract_and_clean_data (Dag 'load_to_dwh_v2' could not be found; either it does not exist or it failed to parse.; 517)
+[2022-11-12T11:35:06.310+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2022-11-12T11:35:06.346+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,31 @@
+[2022-11-12T13:15:48.684+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: load_to_dwh_v2.extract_and_clean_data manual__2022-11-12T13:15:47.387726+00:00 [queued]>
+[2022-11-12T13:15:48.699+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: load_to_dwh_v2.extract_and_clean_data manual__2022-11-12T13:15:47.387726+00:00 [queued]>
+[2022-11-12T13:15:48.699+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-12T13:15:48.700+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 6
+[2022-11-12T13:15:48.700+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-12T13:15:48.723+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): extract_and_clean_data> on 2022-11-12 13:15:47.387726+00:00
+[2022-11-12T13:15:48.729+0000] {standard_task_runner.py:54} INFO - Started process 353 to run task
+[2022-11-12T13:15:48.732+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'load_to_dwh_v2', 'extract_and_clean_data', 'manual__2022-11-12T13:15:47.387726+00:00', '--job-id', '260', '--raw', '--subdir', 'DAGS_FOLDER/postgre_create_table.py', '--cfg-path', '/tmp/tmpk2d8drjk']
+[2022-11-12T13:15:48.733+0000] {standard_task_runner.py:83} INFO - Job 260: Subtask extract_and_clean_data
+[2022-11-12T13:15:48.734+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/postgre_create_table.py
+[2022-11-12T13:15:49.127+0000] {task_command.py:384} INFO - Running <TaskInstance: load_to_dwh_v2.extract_and_clean_data manual__2022-11-12T13:15:47.387726+00:00 [running]> on host f7644c80e7bb
+[2022-11-12T13:15:49.216+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=nahom
+AIRFLOW_CTX_DAG_ID=load_to_dwh_v2
+AIRFLOW_CTX_TASK_ID=extract_and_clean_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-12T13:15:47.387726+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-12T13:15:47.387726+00:00
+[2022-11-12T13:15:49.217+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  return func(*args, **kwargs)
+
+[2022-11-12T13:15:56.462+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py:586: ParserWarning: Length of header or names does not match length of data. This leads to a loss of data with index_col=False.
+  return _read(filepath_or_buffer, kwds)
+
+[2022-11-12T13:15:58.095+0000] {logging_mixin.py:117} INFO - data loaded successfully!!!
+[2022-11-12T13:15:58.125+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-11-12T13:15:58.141+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=load_to_dwh_v2, task_id=extract_and_clean_data, execution_date=20221112T131547, start_date=20221112T131548, end_date=20221112T131558
+[2022-11-12T13:15:58.190+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-11-12T13:15:58.217+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
