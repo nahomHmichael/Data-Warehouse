@@ -1,0 +1,5 @@
+outs:
+- md5: be77d5b1fabd36b660e5805172ec970c
+  size: 193200
+  isexec: true
+  path: drone3_clean.csv
