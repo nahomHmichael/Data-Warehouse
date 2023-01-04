@@ -1,4 +1,4 @@
-# Traffic-ELT-pipeline
+# Scalable Data Warehouse
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
